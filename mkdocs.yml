@@ -1,0 +1,31 @@
+site_name: threana
+
+nav:
+    - Home: index.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/git-alt
+
+site_url: https://0010.ru/projects/threana
+repo_url: https://github.com/0010ru/threana
+repo_name: 0010ru/threana
+edit_uri: ""
+extra:
+  homepage: https://0010.ru/projects/threana
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/0010ru/threana
+copyright: Copyright &copy; 2022 Valentin Zemlyakov
